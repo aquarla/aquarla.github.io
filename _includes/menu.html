@@ -3,6 +3,7 @@
     {% for item in site.data.settings.menu %}
     <a href="{{ item.path | relative_url }}/{{ item.url }}">{{ item.name }}</a>
     {% endfor %}
+    <a href="https://aquarla.hatenablog.com/" target="_blank">Blog</a>
   </nav>
   <nav class="social-icons">
     {% include social-icons.html %}
